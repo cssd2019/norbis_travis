@@ -1,3 +1,6 @@
+import unittest
+import sys
+sys.path.append( '.')
 import pytest
 
 from maths.vectors import *
