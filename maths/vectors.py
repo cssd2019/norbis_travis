@@ -32,10 +32,7 @@ def sum_numbers( value1, value2):
 
 def sum_vectors( vector1, vector2):
 
-    summed_vector = []
-
-    for value1, value2 in zip( vector1, vector2):
-        summed_vector.insert(0, value1 + value2 )
+    summed_vector = [x + y for x, y in zip(vector1, vector2)]
 
     return summed_vector
 
